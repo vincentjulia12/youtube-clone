@@ -1,44 +1,50 @@
+
+/* Container of a header */
+
 .header-container {
-  height: 65px;
+  height: 55px;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 
   position: fixed;
   top: 0;
+  left: 0;
   right: 0;
-  left: 0; 
   z-index: 100;
-
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(228, 228, 228);
 }
 
-.left-section {
 
+/* Left section of a header */
+
+.left-section {
   display: flex;
   align-items: center;
 }
 
 .hamburger-logo {
-  height: 27px;
+  height: 24px;
   margin-left: 24px;
   margin-right: 24px;
 }
 
 .youtube-logo {
-  height: 24px;
+  height: 20px;
 }
 
+
+/* Middle section of a header */
+
 .middle-section {
-  flex: 1;
+   flex: 1;
   margin-left: 70px;
   margin-right: 35px;
-  max-width: 500px; 
+  max-width: 500px;
   display: flex;
   align-items: center;
 }
@@ -76,6 +82,9 @@
   width: 30px;
 }
 
+
+/*This one is tooltip  */
+
 .search-button,
 .voice-button,
 .upload-icon-container,
@@ -106,6 +115,8 @@
   transition: opacity 0.20s;
   pointer-events: none;
   white-space: nowrap;
+
+  position: absolute;
 }
 
 .search-button .tooltip {
@@ -155,21 +166,16 @@
   margin-left: 10px;
 }
 
+
+/* Right section of a header */
+  
 .right-section {
-  width: 200px;
+  width: 180px;
   margin-right: 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   flex-shrink: 0;
-
-  height: 40px;
-  width: 40px;
-  background-color: rgb(240, 240, 240);
-  border: none;
-  border-radius: 100%;
-
-  margin-left: 10px;
 }
 
 .upload-icon {
@@ -218,3 +224,6 @@
   margin-top: 1px;
 
 }
+
+
+/* wala na babaguhin sa codes na to */
