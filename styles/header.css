@@ -1,3 +1,6 @@
+
+/* Container of a header */
+
 .header-container {
   height: 55px;
 
@@ -16,6 +19,9 @@
   border-bottom-color: rgb(228, 228, 228);
 }
 
+
+/* Left section of a header */
+
 .left-section {
   display: flex;
   align-items: center;
@@ -30,6 +36,9 @@
 .youtube-logo {
   height: 20px;
 }
+
+
+/* Middle section of a header */
 
 .middle-section {
    flex: 1;
@@ -72,6 +81,9 @@
 .search-icon {
   width: 30px;
 }
+
+
+/*This one is tooltip  */
 
 .search-button,
 .voice-button,
@@ -153,6 +165,9 @@
   
   margin-left: 10px;
 }
+
+
+/* Right section of a header */
   
 .right-section {
   width: 180px;
